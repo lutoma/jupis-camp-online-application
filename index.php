@@ -133,7 +133,7 @@ if (isset($_REQUEST["check"])) {
  <fieldset>
   <img src="//www.junge-piraten.de/logo.png" id="logo" />
   <h1>Anmeldung zum Wintercamp 2013</h1>
-  <p>Hiermit melde ich mich <!-- / mein Kind --></p>
+  <p>Hiermit melde ich mich, <!-- / mein Kind --></p>
   <dl>
    <dt>Name:</dt>
    <dd><input type="text" name="name" value="<?php echo Util::val("name"); ?>" size="20" /></dd>
